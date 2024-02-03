@@ -1,7 +1,7 @@
 # Dolers Website
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/miftahganzz/Dolers-Website/main/preview.png" alt="Example">
+  <img src="https://raw.githubusercontent.com/miftahganzz/Dolers-Website/c32270df2dec8e64af89293fb422a64f126e5495/priview.png" alt="Example">
 </p>
 
 <p align="center">
