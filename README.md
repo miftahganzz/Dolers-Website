@@ -1,7 +1,7 @@
-# Image Uploader Website
+# Dolers Website
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/miftahganzz/Dolers-Website/main/assets/preview.png" alt="Image Upload Screen Shot">
+  <img src="https://raw.githubusercontent.com/miftahganzz/Dolers-Website/main/preview.png" alt="Image Upload Screen Shot">
 </p>
 
 <p align="center">
@@ -10,36 +10,56 @@
 
 ## Introduction
 
-This project is a simple Image Uploader that allows users to upload images, copy the image URL, and choose the language for the interface. It is built using HTML, CSS, JavaScript, and PHP with the Tailwind CSS framework.
+Welcome to Dolers Website, your go-to platform for downloading content from various social media platforms! Whether it's TikTok, YouTube, Facebook, Likee, CapCut, Spotify, Twitter, or Mediafire, Dolers Website has got you covered. Enjoy the convenience of offline access to your favorite content.
 
 ## Features
 
-* Image Upload: Users can select an image file and upload it.
-* Copy Image URL: After uploading, users can copy the URL of the uploaded image.
-* Language Selection: Users can choose between English (EN) and Indonesian (ID) languages.
-* Upload Image With API Endpoint: /upload?url=img_url
-- Example: [API](https://cdn.miftah.biz.id/upload?url=)
+* Multi-Platform Support: Dolers Website supports a wide range of popular social media platforms, allowing users to download content from diverse sources.
+* User-Friendly Interface: Our simple and intuitive user interface makes the content downloading process seamless and user-friendly.
+* Support for Various Content Types: Dolers Website doesn't limit you to just videos. Download music, images, and documents with ease.
+* Regular Updates: We are committed to providing regular updates to support changes and updates on social media platforms.
+* Security and Privacy: Dolers Website prioritizes user security and privacy, adhering to the highest standards in data management.
+
+## How To Use
+
+* Select Platform What Do You Want Any:
+  - Tiktok
+  - Spotify
+  - Facebook
+  - Capcut
+  - Likee
+  - MediaFire
+  - Twitter
+* Paste URL: Copy and paste the URL of the content you want to download from the supported social media platform.
+* Download Content: Click the "Download" button to start the download process. Monitor the download status on the status page.
 
 ## Tech & Tools
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> </a> </p>
+<p align="left"> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
 
 ## Setup and Usage
 
 1. Clone the Repository:
    ``` bash
-   git clone https://github.com/miftahganzz/Image-Uploader.git
-   cd image-uploader
+   git clone https://github.com/miftahganzz/Dolers-Website.git
+   cd Dolers-Website
    ```
-2. Configure Server:
+2. Configure config.php:
+   ``` bash
+   <?php
+   $apiKey = "your_apikey"; // Get apikey in https://api.miftahganzz.my.id
+   ```
+3. Configure Server:
 * Set up a PHP server to run the application.
-3. Open in Browser
-4. Usage:
-* Choose the language using the dropdown. [en/id]
-* Select an image file and click the "Upload" button.
-* After uploading, copy the image URL.
+4. Open in Browser
+5. Usage:
+* Choose the platform using the dropdown.
+* Paste Url.
+* Click Details For Download.
 
 ## Development
 * To modify or extend the functionality, edit the respective HTML, CSS, JavaScript, and PHP files.
